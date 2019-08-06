@@ -1,0 +1,12 @@
+HIDUartExample
+
+To build this project:
+Two libraries need to be built and copied into this directory: libSLABHIDDevice.dylib libSLABHIDtoUART.dylib
+
+Recent Changes
+--------------
+1/5/17
+Turned off garbage collection (no longer supported).
+Removed various user defined settings that no longer apply (because they pertained to powerpc)
+Added an rpath into the linker flags so that the app can find the app can find the .dylibs in Contents/Shared.
+Created this file. 

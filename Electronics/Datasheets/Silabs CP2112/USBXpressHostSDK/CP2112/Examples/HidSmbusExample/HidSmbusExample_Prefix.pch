@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'HidSmbusExample' target in the 'HidSmbusExample' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
